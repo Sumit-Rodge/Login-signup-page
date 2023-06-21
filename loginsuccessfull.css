@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("bgimage.jpg");
+    background-size: 1920px  1080px;
+}
+#container{
+    width: 70vw;
+    margin:10vh auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+#log-in-successfull{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+#signupbutton{
+    width: fit-content;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 255, 0.808);
+    border: none;
+    margin: 5vh auto 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

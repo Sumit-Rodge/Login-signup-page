@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/444c0f96d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div id="centerdiv">
+             <h1 id="google"><span id="google-1blue">G</span><span id="google-2red">o</span><span id="google-3yellow">o</span><span id="google-1blue">g</span><span id="google-5green">l</span><span id="google-2red">e</span>
+        </h1>
+            <p id="signup">Sign Up</p>
+            <input type="text" placeholder="Enter Username..." class="textbox" id="username">
+            <p class="hiddentext" id="validusername">Username is required</p>
+            
+            <input type="text" placeholder="Enter Gmail..." class="textbox" id="gmail">
+            <p class="hiddentext" id="validgmail">Enter valid gmail</p>
+
+            <input type="password" placeholder="Enter Password..." class="textbox" id="password">
+            <p class="hiddentext" id="validpassword">password must contain 8-20 character including a UPPERCASE letter</p>
+
+            <label><input type="checkbox" id="showpassword">Show password</label>
+            <button id="signupbutton" onclick="validate()">
+                Sign Up
+            </button>
+            <p id="log-in-text">Already have an account?<a href="index.html">Log-in</a></p>
+        </div>
+    </main>
+   
+</body>
+<script src="signupjs.js"></script>
+</html>

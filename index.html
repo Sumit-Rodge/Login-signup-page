@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="google"><span id="google-1blue">G</span><span id="google-2red">o</span><span id="google-3yellow">o</span><span id="google-1blue">g</span><span id="google-5green">l</span><span id="google-2red">e</span>
+        </h1>
+        
+        <h2 id="log-in-text">Sign-in</h2>
+        <p id="google-desc">with your google account</p>
+        <input type="text"  id="email" placeholder="Enter your Gmail or Phone No." required>
+        <p id="valid-email">Enter valid Email</p>
+        <input type="password"  id="password" placeholder="Enter your password" required>
+        <p id="valid-password">password must contain 8-20 character including a UPPERCASE letter</p>
+
+        <label ><input type="checkbox" id="show-password" >
+        Show Password</label>
+
+        <div id="bottom">
+        <a href="" id="forget-password">Forget password?</a>
+        <button id="login-button" onclick="validate()">Log-in</button>
+        </div>
+
+        <div id="sign-up-div">
+        <p id="sign-up-text">don't hava an account?<a href="signup.html">Register</a></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

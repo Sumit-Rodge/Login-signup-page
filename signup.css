@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+    /* overflow: hidden; */
+    background-color: rgba(0, 25, 248, 0.205);
+    z-index: 1;
+}
+#centerdiv{
+    background-color: white;
+    z-index: 2;
+    margin:10vh auto 0;
+    height: 80vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid rgb(243, 243, 243);
+}
+#google{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-right: 0;
+}
+#google-1blue{
+    color: blue;
+}
+
+#google-2red{
+    color: red;
+}
+
+#google-3yellow{
+    color: rgb(228, 228, 68);
+}
+
+#google-5green{
+    color: green;
+    
+}
+#signup{
+    font-size: 2rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: 900;
+}
+.textbox{
+    margin: 1.5vh 0 0 ;
+    /* height: 8vh; */
+    padding: .8rem .2rem;
+}
+.hiddentext{
+    margin: 0;
+    color: red ;
+    visibility: hidden;
+}
+#signupbutton{
+    width: fit-content;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 255, 0.808);
+    color: white;
+    border: none;
+    margin: 5vh auto 0;
+}
+#signupbutton:hover{
+    cursor: pointer;
+}
+
+#log-in-text{
+    margin: 5vh;
+}
+
+@media (max-width: 600px) {
+    #centerdiv{
+        width: 70vw;
+    }
+  }
+  @media (max-width: 800px ) and (min-width:600px) {
+    #centerdiv{
+        width: 50vw;
+    }
+  }
